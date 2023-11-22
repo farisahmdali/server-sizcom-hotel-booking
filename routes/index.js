@@ -6,5 +6,6 @@ var router = express.Router();
 router.get('/paymentOrder',controller.paymentOrder);
 router.post("/paymentSuccess",controller.paymentSuccess)
 router.get("/roomDetails",controller.roomdetails)
+router.get("/search",controller.search)
 
 module.exports = router;
